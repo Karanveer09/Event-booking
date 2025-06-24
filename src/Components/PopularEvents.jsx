@@ -1,5 +1,5 @@
-import concert from '/public/concert.jpg'; // replace with your actual images
-import theatre from '/public/theatre.png';
+import concert from '/public/concert.webp'; // replace with your actual images
+import theatre from '/public/theatre.jpg';
 import EventCard from './Eventcard';
 
  function PopularEvents() {
@@ -8,14 +8,14 @@ import EventCard from './Eventcard';
       image: concert,
       title: "Rock Concert Night",
       date: "Sat, July 15",
-      location: "Mumbai Arena",
+      location: "Mohali Arena",
       price: 799
     },
     {
       image: theatre,
       title: "Shakespeare Play",
       date: "Sun, July 16",
-      location: "Delhi Theater",
+      location: "Mohali Theater",
       price: 499
     }
   ];

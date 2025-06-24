@@ -1,6 +1,6 @@
 // components/Categories.jsx
 const categories = [
-  { label: "Concerts", icon: "pi pi-music" },
+  { label: "Concerts", icon: "pi pi-volume-up" },
   { label: "Theater", icon: "pi pi-star" },
   { label: "Sports", icon: "pi pi-send" },
   { label: "Food & Drink", icon: "pi pi-heart" }

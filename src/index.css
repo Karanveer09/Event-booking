@@ -8,6 +8,12 @@ body {
 }
 
 /* Navbar */
+.logo{
+  font-size: 1.5rem;
+  align-self: center;
+  font-weight: bolder;
+
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -25,10 +31,16 @@ body {
   color: black;
   font-weight: 500;
 }
+.nav-links a:hover{
+  color: #7f5af0;
+  text-decoration: underline;
+}
+
 
 /* Hero */
 .hero {
   text-align: center;
+  height: 500px;
   padding: 5rem 2rem;
   background: linear-gradient(135deg, #7f5af0, #d946ef);
   color: white;
@@ -46,6 +58,10 @@ body {
   border-radius: 8px;
   color: white;
   margin-left: 10px;
+  cursor: pointer;
+}
+.search-btn :hover{
+  color :black;
 }
 
 /* Categories */
@@ -120,4 +136,15 @@ body {
 }
 .book-btn:hover {
   background: #5b3fc2;
+}
+/* Popular Event Cards */
+.event-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.event-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  background: #f9f9f9;
 }
