@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./signin.css";
+import { useNavigate } from "react-router-dom";
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
+ const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle login logic
@@ -28,7 +29,7 @@ const SignIn = () => {
           <label>Password</label>
           <input
             type="password"
-            placeholder="••••••••"
+            placeholder=""
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
@@ -36,7 +37,12 @@ const SignIn = () => {
 
           <div className="signin-links">
             <a href="/reset-password">Forgot Password?</a>
-            <a href="/register">Create Account</a>
+            <span
+              style={{ color: "#7b2ff7", cursor: "pointer" }}
+              onClick={() => navigate("/Signup")} 
+            >
+              Create Account
+            </span>
           </div>
 
           <button type="submit">Sign In</button>

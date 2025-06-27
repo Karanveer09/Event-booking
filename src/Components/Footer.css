@@ -45,6 +45,22 @@
   cursor: pointer;
   transition: color 0.3s;
   font-size: 1.1rem;
+  color: #ccc;
+}
+.footer-col ul li a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer-col ul li a:visited,
+.footer-col ul li a:active,
+.footer-col ul li a:focus {
+  color: inherit;
+}
+.footer-col ul li:hover,
+.footer-col ul li:hover a,
+.footer-col ul li a:hover {
+  color: #7f5af0;
 }
 .footer-col ul li:hover {
   color: #7f5af0;

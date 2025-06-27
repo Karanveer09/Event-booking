@@ -72,16 +72,17 @@
 
 /* Button */
 .signin-form button {
-  padding: 10px;
-  background-color: #7b2ff7;
-  color: white;
-  font-weight: bold;
+  background: linear-gradient(90deg, #7f5af0, #d946ef);
+  color: #fff;
   border: none;
   border-radius: 6px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.2s;
 }
 
 .signin-form button:hover {
-  background-color: #5d1bb8;
+  background: linear-gradient(90deg, #6a4cff, #c026d3);
 }

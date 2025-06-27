@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'primereact/button';
 import { useNavigate } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -17,7 +18,8 @@ export default function Navbar() {
         <li><a href="#">Events</a></li>
         <li><a href="#">Movies</a></li>
         <li><a href="#">My Tickets</a></li>
-        <li><a href="#">About Us</a></li>
+        <li>
+          <Link to="/about">About Us</Link></li>
       </ul>
       <Button
         label="Sign In"

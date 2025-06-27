@@ -1,15 +1,17 @@
 import React from 'react';
 import './Footer.css'; 
-
+import { useNavigate } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 export default function Footerr() {
   return (
+    
     <footer className="footer">
       <div className="footer-columns">
         {/* Contact Info */}
         <div className="footer-col">
           <h4>Contact info</h4>
           <p><strong>Call us</strong><br />+91-62XXXXXXXX</p>
-          <p><strong>Mail</strong><br />info@eventify.com</p>
+          <p><strong>Mail</strong><br />eventify@gmail.com</p>
           <div className="social-icons">
             <i className="pi pi-facebook"></i>
             <i className="pi pi-twitter"></i>
@@ -26,7 +28,7 @@ export default function Footerr() {
             <li>Events</li>
             <li>Movies</li>
             <li>My Tickets</li>
-            <li>About us</li>
+            <li><Link to="/about">About Us</Link></li>
           </ul>
         </div>
 
