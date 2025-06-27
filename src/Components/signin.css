@@ -4,13 +4,14 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+  background: linear-gradient(135deg, #7f5af0, #d946ef);
   padding: 20px;
 }
 
 /* Card box */
 .signin-box {
   background: white;
+  box-shadow: #444;
   padding: 40px 30px;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);

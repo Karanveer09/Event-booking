@@ -1,4 +1,4 @@
-// components/Categories.jsx
+
 const categories = [
   { label: "Concerts", icon: "pi pi-volume-up" },
   { label: "Theater", icon: "pi pi-star" },

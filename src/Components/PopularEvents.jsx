@@ -1,5 +1,7 @@
-import concert from '/public/concert.webp'; // replace with your actual images
+import concert from '/public/concert.webp'; 
 import theatre from '/public/theatre.jpg';
+import cricket from '/public/cricket.jpg';
+import bbq from '/public/bbq.jpeg';
 import EventCard from './Eventcard';
 
  function PopularEvents() {
@@ -17,6 +19,20 @@ import EventCard from './Eventcard';
       date: "Sun, July 16",
       location: "Mohali Theater",
       price: 499
+    },
+    {
+      image: cricket,
+      title: "IND vs AUS Cricket Match",
+      date: "Mon, July 17",
+      location: "IS Bindra Stadium",
+      price: 699
+    },
+    {
+      image: bbq,
+      title: "BBQ Food Festival",
+      date: "Tue, July 10",
+      location: "Sector 17 Plaza",
+      price: 849
     }
   ];
 

@@ -3,8 +3,8 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Categories from './Components/Categories';
 import PopularEvents from './Components/PopularEvents';
-import SignIn from './Components/signin'; // Import your SignIn component
-
+import SignIn from './Components/signin'; 
+import Footerr from './Components/Footerr'; 
 function App() {
   return (
     <Router>
@@ -17,6 +17,7 @@ function App() {
               <Hero />
               <Categories />
               <PopularEvents />
+              <Footerr />
             </>
           }
         />

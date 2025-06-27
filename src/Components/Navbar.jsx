@@ -1,12 +1,12 @@
 import React from 'react';
 import { Button } from 'primereact/button';
-import { useNavigate } from 'react-router-dom'; // import router hook
+import { useNavigate } from 'react-router-dom'; 
 
 export default function Navbar() {
   const navigate = useNavigate();
 
   const handleSignIn = () => {
-    navigate("/signin"); // navigate to the sign-in page
+    navigate("/signin"); 
   };
 
   return (
@@ -15,8 +15,9 @@ export default function Navbar() {
       <ul className="nav-links">
         <li><a href="#">Home</a></li>
         <li><a href="#">Events</a></li>
-        <li><a href="#">Venues</a></li>
+        <li><a href="#">Movies</a></li>
         <li><a href="#">My Tickets</a></li>
+        <li><a href="#">About Us</a></li>
       </ul>
       <Button
         label="Sign In"

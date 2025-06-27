@@ -14,7 +14,7 @@ const SignIn = () => {
   return (
     <div className="signin-container">
       <div className="signin-box">
-        <h2 className="signin-title">Welcome Back 👋</h2>
+        <h2 className="signin-title">🎟️ <b>Eventify</b></h2>
         <form onSubmit={handleSubmit} className="signin-form">
           <label>Email</label>
           <input

@@ -19,7 +19,8 @@ body {
   justify-content: space-between;
   padding: 1rem 2rem;
   background: white;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,0.16);
+  z-index: 10;
 }
 .nav-links {
   display: flex;
@@ -30,20 +31,34 @@ body {
   text-decoration: none;
   color: black;
   font-weight: 500;
+  font-weight: bold;
 }
 .nav-links a:hover{
   color: #7f5af0;
   text-decoration: underline;
+  /* border-radius: 20px; */
+  /* background-color: rgb(194, 191, 191); */
 }
 
 
 /* Hero */
 .hero {
   text-align: center;
-  height: 500px;
-  padding: 5rem 2rem;
+  font-size: bolder;
+  height: 600px;
+  padding: 120px 20px;
   background: linear-gradient(135deg, #7f5af0, #d946ef);
   color: white;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 40px;
 }
 .hero input {
   padding: 0.75rem;
