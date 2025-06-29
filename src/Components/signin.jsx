@@ -8,7 +8,7 @@ const SignIn = () => {
  const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle login logic
+    
     console.log({ email, password });
   };
 
@@ -36,7 +36,9 @@ const SignIn = () => {
           />
 
           <div className="signin-links">
-            <a href="/reset-password">Forgot Password?</a>
+            <span
+              style={{ color: "#7b2ff7", cursor: "pointer" }}
+              onClick={() => navigate("/changepass")}>Forgot Password?</span>
             <span
               style={{ color: "#7b2ff7", cursor: "pointer" }}
               onClick={() => navigate("/Signup")} 

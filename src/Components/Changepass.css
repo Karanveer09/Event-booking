@@ -1,5 +1,5 @@
 /* Full-screen gradient background */
-.signup-container {
+.changepass-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,81 +9,64 @@
 }
 
 /* Card box */
-.signup-box {
+.changepass-box {
   background: white;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-  padding: 40px 30px;
+  padding: 24px 16px;
   border-radius: 12px;
-  max-width: 400px;
+  max-width: 320px;
   width: 100%;
 }
 
 /* Title */
-.signup-title {
+.changepass-title {
   text-align: center;
   color: #7b2ff7;
-  font-size: 28px;
-  margin-bottom: 24px;
+  font-size: 1.1rem;
+  margin-bottom: 18px;
 }
 
 /* Form */
-.signup-form {
+.changepass-form {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 6px;
 }
 
-.signup-form label {
+.changepass-form label {
   font-weight: 500;
   color: #7b2ff7;
-  margin-bottom: 4px;
+  margin-bottom: 0.98rem;
 }
 
-.signup-form input {
-  padding: 10px;
+.changepass-form input {
+  padding:8px;
   border: 1px solid #e0e0e0;
   border-radius: 6px;
-  font-size: 1rem;
+  font-size: 0.98rem;
   margin-bottom: 8px;
   outline: none;
   transition: border 0.2s;
 }
 
-.signup-form input:focus {
+.changepass-form input:focus {
   border: 1.5px solid #7f5af0;
 }
 
-/* Links */
-.signup-links {
-  text-align: right;
-  margin-bottom: 10px;
-}
-
-.signup-links a {
-  color: #7f5af0;
-  text-decoration: none;
-  font-size: 0.98rem;
-}
-
-.signup-links a:hover {
-  text-decoration: underline;
-}
-
 /* Button */
-.signup-btn {
+.changepass-btn {
   background: linear-gradient(90deg, #7f5af0, #d946ef);
   color: #fff;
   border: none;
   border-radius: 6px;
-  padding: 12px 0;
-  font-size: 1.1rem;
+  padding: 10px 0;
+  font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.2s;
 }
 
-.signup-btn:hover {
+.changepass-btn:hover {
   background: linear-gradient(90deg, #6a4cff, #c026d3);
 }
-
 

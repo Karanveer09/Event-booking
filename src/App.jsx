@@ -6,6 +6,7 @@ import SignIn from './Components/signin';
 import Footerr from './Components/Footerr';
 import AboutUs from './Components/AboutUs';
 import Signup from './Components/Signup';
+import Changepass from './Components/Changepass'; 
 
 function App() {
   return (
@@ -17,7 +18,6 @@ function App() {
             <>
               <Navbar />
               <Hero />
-
               <PopularEvents />
               <Footerr />
             </>
@@ -26,6 +26,7 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/Signup" element={<Signup />} />
+        <Route path="/changepass" element={<Changepass />} />
 
       </Routes>
     </Router>
